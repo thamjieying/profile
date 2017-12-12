@@ -1465,7 +1465,7 @@ if (Vel) {
         $panel_headers.not(object).parent().children('.collapsible-body').stop(true, false).each(function () {
           if ($(this).is(':visible')) {
             $(this).slideUp({
-              duration: 350,
+              duration: 800,
               easing: "easeOutQuart",
               queue: false,
               complete: function () {
